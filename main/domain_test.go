@@ -6,6 +6,8 @@ import (
 	"time"
 )
 
+// TestInvoice_InvoiceAmount は InvoiceAmount() のテストです。
+// InvoiceAmount() は支払金額の計算という重要なルールを内包しているので単体テストを作成しています。
 func TestInvoice_InvoiceAmount(t *testing.T) {
 	type fields struct {
 		id             string
