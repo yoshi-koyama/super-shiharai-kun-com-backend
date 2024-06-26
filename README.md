@@ -64,6 +64,13 @@ https://github.com/upsidr/coding-test/blob/main/web-api-language-agnostic/README
 - データベースの構築に Docker を使用
 - 認証に Firebase Authentication を使用
 
+まずは認証機能無しで API 実装する。  
+<img width="780" alt="スクリーンショット 2024-06-26 15 41 06" src="https://github.com/yoshi-koyama/super-shiharai-kun-com-backend/assets/62045457/ad8dfcb5-68dd-44a3-8ce8-f1eef2c64e44">
+
+API 実装後に認証機能を付加する。
+
+<img width="810" alt="スクリーンショット 2024-06-26 15 41 44" src="https://github.com/yoshi-koyama/super-shiharai-kun-com-backend/assets/62045457/394e8aee-9ecc-4fdd-a1f4-45a0de08086d">
+
 ## API 仕様
 
 ### 請求書データ作成 API POST /api/invoices
